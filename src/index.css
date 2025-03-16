@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family : inter-regular;
+        src : url(./assets/fonts/Inter_28pt-Regular.ttf)
+    }
+    @font-face {
+        font-family : apple-garamond-italic;
+        src:  url(./assets/fonts/AppleGaramond-LightItalic.ttf);
+    }
+}
+
+
+@layer base {
+    h3{
+        font-family : 'inter-regular' ;
+        font-size : 15px ;
+        line-height : 1.5vh;
+        color : white ; 
+
+    }
+    h4{
+        font-family : 'inter-regular' ;
+        font-size : 13px ;
+        line-height : 1.5vh;
+        color : white ; 
+        opacity : 60%
+
+    }
+    h2 {
+        font-family : 'apple-garamond-italic';
+        font-size : 9vw;
+        letter-spacing  : -0.2vw;
+        line-height : 3.5vh;
+        color : white ;
+        opacity : 80%;
+    }
+}
