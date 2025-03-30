@@ -12,13 +12,35 @@
         font-family : apple-garamond-italic;
         src:  url(./assets/fonts/AppleGaramond-LightItalic.ttf);
     }
+    @font-face {
+        font-family : inter-medium;
+        src:  url(./assets/fonts/Inter_28pt-Medium.ttf);
+    }
 }
 
 
 @layer base {
+    html{
+        background-color: black;
+    }
+    a{
+        font-family : 'inter-regular' ;
+        font-size : 15px ;
+        line-height : 1.5vh;
+        color : white ; 
+
+    }
     h3{
         font-family : 'inter-regular' ;
         font-size : 15px ;
+        line-height : 1.5vh;
+        color : white ; 
+
+    }
+    h5{
+        font-family : 'inter-regular' ;
+        font-size : 12vw ;
+        letter-spacing : -0.2vw;
         line-height : 1.5vh;
         color : white ; 
 
@@ -28,7 +50,7 @@
         font-size : 13px ;
         line-height : 1.5vh;
         color : white ; 
-        opacity : 60%
+        opacity : 60%   
 
     }
     h2 {
@@ -38,5 +60,13 @@
         line-height : 3.5vh;
         color : white ;
         opacity : 80%;
+    }
+    p{
+        font-family : 'inter-regular' ;
+        font-size : 19px ;
+        line-height : 2.7vh;
+        color : white ; 
+        opacity : 60%
+
     }
 }

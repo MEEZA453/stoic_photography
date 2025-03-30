@@ -5,7 +5,7 @@ import {useState} from 'react'
 function imageAlgo({images , title , focalLength ,iso,format,nextImage,dateTaken,aperture,shutterSpeed, lensUsed ,  index}) {
 
 
-    console.log(images , index%2 == 0)
+
   return (
     <div className='bg-black'>
       { index %2 == 0 ? <div>
